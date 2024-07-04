@@ -29,10 +29,11 @@ button {
 
 header {
   width: 100vw;
-  position: fixed;
+  position: sticky;
   background-color: #f2e9d8;
   height: 102px;
   display: flex;
+  top: 0;
 }
 header img {
   width: 130px;
@@ -298,9 +299,6 @@ footer {
 
   body {
     font-size: 14px;
-  }
-  .main-title {
-    padding-top: 100px;
   }
 
   .main-title-txt {
