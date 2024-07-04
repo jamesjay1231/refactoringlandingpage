@@ -28,7 +28,8 @@ button {
 /* 헤더 css 구현 */
 
 header {
-  position: sticky;
+  width: 100vw;
+  position: fixed;
   background-color: #f2e9d8;
   height: 102px;
   display: flex;
@@ -220,6 +221,7 @@ header img {
 }
 
 /* footer css 구현 */
+
 footer {
   display: flex;
 }
@@ -240,6 +242,21 @@ footer {
 }
 .mobile-footer-nav {
   display: none;
+}
+
+/* 탑 버튼 css 구현 */
+.top-button {
+  position: fixed;
+  bottom: 17vh;
+  right: 5vw;
+}
+.top-button img {
+  border: 1px solid #c4c4c4;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #fff;
+  opacity: 0.8;
 }
 
 /* 모바일 반응형 구현 */
@@ -281,6 +298,9 @@ footer {
 
   body {
     font-size: 14px;
+  }
+  .main-title {
+    padding-top: 100px;
   }
 
   .main-title-txt {
