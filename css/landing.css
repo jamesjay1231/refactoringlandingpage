@@ -297,7 +297,7 @@ footer {
   .main-title img {
     width: 197px;
     height: 422px;
-    object-position: 0;
+    object-position: center 50px;
   }
 
   /* 모바일 메인 컨텐츠 css 구현 */
